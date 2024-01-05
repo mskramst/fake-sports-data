@@ -1,0 +1,26 @@
+{
+  "name": "@mskramst/fake-data",
+  "version": "0.0.7",
+  "description": "",
+  "main": ".dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "private": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "dev": "vitest",
+    "test": "vitest run",
+    "start": "pnpm build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "M Skramstad",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@types/node": "^20.10.6",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.1"
+  }
+}
