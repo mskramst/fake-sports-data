@@ -1,8 +1,8 @@
 {
   "name": "@mskramst/sports-fake-data",
-  "version": "0.0.8",
+  "version": "0.0.85",
   "description": "A tool to generate fake sports data, initially baseball.",
-  "main": ".dist/index.js",
+  "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "private": false,
