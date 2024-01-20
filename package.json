@@ -1,6 +1,6 @@
 {
   "name": "@mskramst/sports-fake-data",
-  "version": "0.0.85",
+  "version": "0.0.90",
   "description": "A tool to generate fake sports data, initially baseball.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,7 +11,8 @@
     "lint": "tsc",
     "dev": "vitest",
     "test": "vitest run",
-    "start": "pnpm build && node dist/index.js"
+    "start": "pnpm build && node dist/index.js",
+    "devtest": "tsup test.ts && node dist/test.js"
   },
   "keywords": ["baseball", "faker", "data", "sports"],
   "author": "M Skramstad",

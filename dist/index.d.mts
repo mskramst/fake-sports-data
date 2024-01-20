@@ -11,7 +11,7 @@ declare class Player {
     position: string;
     number: number;
     team: Team;
-    constructor(team: Team);
+    constructor(team: Team, position?: string);
     getName(): string;
     display(): void;
 }

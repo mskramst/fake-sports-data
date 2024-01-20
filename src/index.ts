@@ -1,4 +1,4 @@
-import fs  from 'fs';
+import fs from 'fs';
 import { Player } from './models/Player';
 import { Team } from './models/Team';
 import { ScoringEvent } from './models/ScoringEvent'
